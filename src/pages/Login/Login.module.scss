@@ -1,0 +1,25 @@
+@import '../../scss/variables';
+
+.Login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(145deg, transparent 60%, rgba(0, 0, 0, 0.1) 40%);
+
+  .login-form {
+    background: white;
+    padding: 2rem;
+    width: 30rem;
+    max-width: 100%;
+    border-radius: 1.875rem;
+
+    h1 {
+      font-size: 3rem;
+      color: $danger;
+      font-weight: 700;
+    }
+  }
+}

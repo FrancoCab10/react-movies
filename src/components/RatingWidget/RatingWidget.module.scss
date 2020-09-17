@@ -1,0 +1,20 @@
+@import '../../scss/variables';
+
+.RatingWidget {
+  padding: 0;
+  margin-right: -0.3125rem;
+  margin-left: -0.3125rem;
+  width: fit-content;
+  display: flex;
+  cursor: pointer;
+
+  li {
+    list-style: none;
+    padding-right: 0.3125rem;
+    padding-left: 0.3125rem;
+
+    svg {
+      fill: $warning;
+    }
+  }
+}

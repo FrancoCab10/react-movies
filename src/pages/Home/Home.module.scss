@@ -1,0 +1,26 @@
+@import '../../scss/variables';
+
+.Home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(145deg, transparent 60%, rgba(0, 0, 0, 0.1) 40%);
+
+  h1 {
+    font-size: 4rem;
+    color: $danger;
+    font-weight: 700;
+  }
+
+  .row {
+    width: 100%;
+    
+    .col {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+$primary: #05388f;
+$secondary: #0f81c7;
+$success: #098b1b;
+$info: #008bb6;
+$warning: #ffb20a;
+$danger: #e02020;
+$light: #dddddd;
+$dark: #2c2c2c;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 340px,
+  md: 720px,
+  lg: 1024px,
+  xl: 1280px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px
+) !default;
